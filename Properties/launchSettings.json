@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SplitSQLScript": {
+      "commandName": "Project",
+      "commandLineArgs": "--help"
+    }
+  }
+}
