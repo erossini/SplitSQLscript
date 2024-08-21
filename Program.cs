@@ -131,11 +131,9 @@ public class Program
     /// Split SQL script in multiple files based on the required size.
     /// </summary>
     /// <param name="file">The SQL script file to split.</param>
-    /// <param name="destination">The destination folder. If this is empty or null,
-    /// the new files will be created in the same directory as the original file.</param>
+    /// <param name="destination">The destination folder. If this is empty or null, the new files will be created in the same directory as the original file.</param>
     /// <param name="limit">The maximum bytes limit for the new files.</param>
-    /// <param name="addGo">if set to <c>true</c> the procedure will add the command GO 
-    /// at the end of each file.</param>
+    /// <param name="addGo">if set to <c>true</c> the procedure will add the command GO at the end of each file.</param>
     public static void Main(string file, string? destination,
         int limit = 10240000, bool addGo = true)
     {

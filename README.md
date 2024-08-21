@@ -1,6 +1,10 @@
 # Split SQL script
 Split an SQL script file into smaller chinks based on the specified maximum byte size.
 
+![splitsqlscript](https://github.com/user-attachments/assets/c1e77e44-1a64-4612-a9c9-2b654bc9254d)
+
+For a description of the code, please visit my blog [PureSourceCode.com](https://puresourcecode.com/dotnet/csharp/split-sql-script-tool/).
+
 ## Usage
 
 >   SplitSQLScript [options]
